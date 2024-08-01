@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(119, 92, 23);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border-radius: 40px;
+}
+h1{
+    color: rgb(42, 86, 86);
+    background-color: rgb(216, 174, 69);
+    margin-top: -20px;
+    width: 102.5%;
+    margin-left: -20px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(162, 72, 72, 0.1);
+    width: 80%;
+    max-width: 800px;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+form input, form select, form button {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+form button {
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: darkgreen;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+td button {
+    margin-right: 5px;
+}
+
+p {
+    text-align: right;
+    font-weight: bold;
+}
+input:hover{
+    background-color: rgb(223, 190, 99);
+}
+#expense-category:hover{
+    background-color:  rgb(223, 190, 106);
+}
